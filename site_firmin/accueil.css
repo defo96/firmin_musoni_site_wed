@@ -1,0 +1,921 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --couleur_principale : rgb(146, 154, 247);
+    --couleur_accentuation : #35e609fd;
+    --couleur_secondaire : rgb(246, 237, 218);
+}
+
+/* gestion du header*/
+
+
+
+/* gestion des slides*/
+.slide{
+    
+    overflow-x: hidden ;
+    padding-top: 4%;
+}
+.slide0{
+    display: flex;
+    width: 400vw;
+    overflow: hidden;
+    animation: translation 60s infinite;
+}
+@keyframes translation {
+    0% { transform: translateX(0vw); }
+    5% { transform: translateX(0vw); }
+    16% { transform: translateX(-100vw); }
+    32% { transform: translateX(-200vw); }
+    48% { transform: translateX(-300vw); }
+    64% { transform: translateX(-200vw); }
+    80% { transform: translateX(-100vw); }
+    100% { transform: translateX(0vw); }
+  }
+  
+.slide1{
+    height: 600px;
+    width: 100vw;
+    background-color: var(--couleur_principale);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10%;
+}
+.slide1 .image_slide1{
+    width: 50vw;
+    height: fit-content;
+   
+}
+.slide1 .image_slide1 img{
+    width: 100%;
+    height: fit-content;
+   
+}
+.slide2{
+    height: 600px;
+    width: 100vw;
+    background-color: var(--couleur_principale);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10%;
+}
+.slide2 .image_slide2{
+    width: 50vw;
+    height: fit-content;
+   
+}
+.slide2 .image_slide2 img{
+    width: 100%;
+    height: 600px;
+   
+}
+.slide3{
+    width: 100vw;
+    height: 600px;
+    background-color: var(--couleur_principale);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide3 .image_slide3{
+    width: 50vw;
+    height: fit-content;
+   
+}
+.slide3 .image_slide3 img{
+    width: 100%;
+    height: 600px;
+    
+}
+.slide4{
+    width: 100vw;
+    height: 600px;
+    background-color: var(--couleur_principale);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10%;
+}
+.image_slide4 img{
+    width: 50vw;
+    height: 600px;
+    
+}
+.slide .slogan{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: rgba(218, 244, 215, 0.766);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.slide p{
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+.prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--couleur_accentuation);
+    border-radius: 50px;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 48%;
+    rotate: 180deg;
+}
+.prev i{
+    color: black;
+}
+.prev i:hover{
+    color: var(--couleur_accentuation);
+}
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--couleur_accentuation);
+    border-radius: 50px;
+    margin-right: 1%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 48%;
+    rotate: 0deg;
+}
+.next i:hover{
+    color: var(--couleur_accentuation);
+}
+
+/*gestion de a propos*/
+
+.a-propos{
+ 
+}
+
+ /* gestion de propos a voir*/
+
+.propos-a-voir{
+    padding-top: 3%;
+    padding-bottom: 3%;
+} 
+.propos-a-voir h2{
+    padding-bottom: 3%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.propos-a-voir span{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: var(--couleur_principale);
+}
+.propos-a-voir p{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    padding: 0 25% 0 25%;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.propos-a-voir ul{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0 25% 0 27%;
+}
+.propos-a-voir li{
+    margin-bottom: 10px;
+}
+.propos-a-voir .voir-plus{
+    color: gray;
+    width: auto;
+}
+.propos-a-voir .voir-plus:hover{
+    color: var(--couleur_principale);
+    cursor: pointer;
+}
+.propos-a-voir h4{
+    padding-left: 25%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    color: var(--couleur_principale);
+}
+
+/* gestion de propos hidden*/
+.propos-hidden h2{
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.propos-hidden h4{
+    padding-bottom: 1.5%;
+    padding-left: 25%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    color: var(--couleur_principale);
+}
+.propos-hidden h6{
+    padding-bottom: 1.5%;
+    padding-left: 25%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    color: var(--couleur_principale);
+}
+.propos-hidden p{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    padding: 0 25% 0 25%;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.propos-hidden ul{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0 25% 0 27%;
+}
+.propos-hidden li{
+    margin-bottom: 10px;
+}
+.propos-hidden{
+    display: none;
+   
+}
+.propos-hidden .voir-plus{
+    color: gray;
+    width: auto;
+}
+.propos-hidden .voir-plus:hover{
+    color: var(--couleur_principale);
+    cursor: pointer;
+}
+.propos-hidden .table{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
+    border-collapse: collapse;
+}
+.propos-hidden table{
+    border-collapse: collapse;
+}
+.propos-hidden .trblue{
+    background-color: var(--couleur_principale);
+}
+.propos-hidden td{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+}
+.propos-hidden th{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+}
+
+.les_fleches{
+    padding-left: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    
+    gap: 3%;
+}
+.fleche {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    font-family:"Roboto", sans-serif ;
+    color: white;
+    background-color: var(--couleur_principale);
+    border-radius: 0 100px 100px 0 ;
+}
+/* gestion de la section présentation produit*/
+.presentation-produit{
+    
+    background-color: var(--couleur_principale);
+    
+
+}
+.presentation-produit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--couleur_principale);
+    width: 97vw;
+    height: 400px;
+
+}
+.produit{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.produit .produit_image{
+    width: 250px;
+    height: 30px;
+   
+}
+.produit .produit_image img{
+    
+    width: 100%;
+}
+.produit{
+    background-color: var(--couleur_secondaire);
+    height: 150px;
+    width: 25%;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 20px 20px 20px 20px;
+    /*transform: scale(0.0);*/
+    transition: transform 1s ease-in-out; 
+}
+.produit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.produit:hover p{
+   color: var(--couleur_accentuation);
+}
+.produit p{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+
+
+
+/* gestion de la section contact*/
+.section-contact{
+    background-color: var(--couleur_secondaire);
+    padding: 5% 0 5% 0 ; 
+  }
+ .votre-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    margin-bottom: 20px;
+ }
+ label{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+ }
+.section-contact h2{
+    color: var(--couleur_principale);
+    font-family:"Roboto", sans-serif ;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    /* width: 20%; */
+    margin-bottom: 20px;
+    /* margin-left: 43%; */
+}
+.votre-message{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20%;
+  align-items: center;
+  margin: auto;
+}
+
+input{
+  height: 20px;
+  border-radius: 3px;
+}
+textarea{
+    resize: none;
+    border-radius: 3px;
+}
+.submit{
+  background: linear-gradient(#e4e3ea, var(--couleur_principale));
+  color: white;
+  /* border-radius: 50px; */
+  padding: 10px 50px;
+  margin: 0px;
+  height: 50%px;
+   border-color: var(--couleur_principale);
+  }
+.cta1{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 38%;
+  margin-right: 49%;
+  border: none;
+  
+}
+.cta1 button{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+@media (min-width: 359px) and (max-width: 461px) {
+    /* gestion slide */
+    .slide{
+    
+        overflow-x: hidden ;
+        padding-top: 10%;
+    }
+    .slide1{
+        height: 400px;
+    }
+    .slide2{
+        height: 400px;
+    }
+    .slide3{
+        height: 400px;
+    }
+    .slide4{
+        height: 400px;
+    }
+    .slide .nom-diapos{
+        display: none;
+    }
+    .slide1 .image_slide1{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide1 .image_slide1 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide2 .image_slide2{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide2 .image_slide2 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide3 .image_slide3{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide3 .image_slide3 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide4 .image_slide4{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide4 .image_slide4 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /* fin gestion slide*/
+
+    /* gestion à propos */
+
+    /* gestion a propos voir*/
+    .propos-a-voir h2{
+        padding-bottom: 3%;
+        font-size: 2em;
+    }
+    .propos-a-voir span{
+        font-size: 1.2em;
+    }
+    .propos-a-voir p{
+        padding: 0 5% 0 5%;
+    }
+    .propos-a-voir ul{
+        font-size: 1.2em;
+        padding: 0 5% 0 12%;
+    }
+    .propos-a-voir h4{
+        padding-left: 5%;
+        font-size: 1.2em;
+    }
+    /* fin gestion a propos voir*/
+
+    /* gestion a propos hiden*/
+    .propos-hidden h2{
+        font-size: 2em;
+    }
+    .propos-hidden h4{
+        padding-left: 5%;
+        font-size: 1.2em;
+    }
+    .propos-hidden h6{
+        padding-left: 5%;
+        font-size: 1em;
+    }
+    .propos-hidden p{
+        font-size: 1em;
+        padding: 0 5% 0 5%;
+        font-weight: 300;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+    .propos-hidden ul{
+        font-size: 1em;
+        padding: 0 5% 0 12%;
+    }
+    .propos-hidden li{
+        margin-bottom: 10px;
+    }
+    
+    .propos-hidden .table{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .propos-hidden table{
+        border-collapse: collapse;
+    }
+    .propos-hidden th{
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 1.1em;
+    }
+    .les_fleches{
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: left;
+        gap: 1%;
+    }
+    .fleche {
+        padding-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50px;
+        width: 90px;
+        font-size: 0.7em;
+        font-family:"Roboto", sans-serif ;
+        color: white;
+        background-color: var(--couleur_principale);
+        border-radius: 0 100px 100px 0 ;
+    }
+    /*fin gestion propos hiden*/
+    /* fin gestion hiden*/
+
+    /* gestion de la session presentation-produit*/
+
+    .presentation-produit1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    background-color: var(--couleur_principale);
+    width: 97vw;
+    height: 600px;
+    }
+    .produit{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: var(--couleur_secondaire);
+        height: 120px;
+        width: 65%;
+        padding: 2% 1% 1% 3%;
+        margin: 2%;
+        border-radius: 20px 20px 20px 20px;
+        /*transform: scale(0.0);*/
+        transition: transform 1s ease-in-out; 
+    }
+    .produit .produit_image{
+        width: 150px;
+        height: 30px;
+       
+    }
+    /* fin de la gestion de la session presentation-produit*/
+
+    /* gestion de la section contact*/
+     
+    .votre-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20%;
+        align-items: center;
+        margin: auto;
+    }
+    .votre-message{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 10%;
+        align-items: center;
+        margin: auto;
+    }
+    textarea{
+        width: 200px;
+        height: 150px;
+    }
+    
+      
+}
+
+@media  (min-width: 461px) and (max-width: 1200px) {
+    /* gestion de la section slide*/
+    .slide .slogan{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1em;
+        font-weight: bolder;
+        color: rgba(218, 244, 215, 0.766);
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .slide p{
+        font-family: "Roboto", sans-serif;
+        font-size: 2em;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .image_slide1 img{
+        width: 70vw;
+        height: 600px;
+        
+    }
+    .image_slide2 img{
+        width: 70vw;
+        height: 600px;
+        
+    }
+    .image_slide3 img{
+        width: 70vw;
+        height: 600px;
+        
+    }
+    .image_slide4 img{
+        width: 70vw;
+        height: 600px;
+        
+    }
+    .slide1{
+        gap: 2%;
+    }
+    .slide2{
+        gap: 2%;
+    }
+    .slide3{
+        gap: 2%;
+    }
+    .slide4{
+        gap: 2%;
+    }
+    /* fin de la section slide*/
+
+    /* gestion de la section presentation produit*/
+    .presentation-produit1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1%;
+        background-color: var(--couleur_principale);
+        width: 97vw;
+        height: 400px;
+        }
+        .produit{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            background-color: var(--couleur_secondaire);
+            height: 120px;
+            width: 38%;
+            padding: 2% 1% 1% 3%;
+            margin: 2%;
+            border-radius: 20px 20px 20px 20px;
+            /*transform: scale(0.0);*/
+            transition: transform 1s ease-in-out; 
+        }
+        .produit .produit_image{
+            width: 150px;
+            height: 30px;
+           
+        }
+        /* fin de gestion de la section presentation produit*/
+
+}
+@media   (min-width: 300px) and (max-width: 359px) {
+     /* gestion slide */
+     .slide{
+    
+        overflow-x: hidden ;
+        padding-top: 10%;
+    }
+    .slide1{
+        height: 400px;
+    }
+    .slide2{
+        height: 400px;
+    }
+    .slide3{
+        height: 400px;
+    }
+    .slide4{
+        height: 400px;
+    }
+    .slide .nom-diapos{
+        display: none;
+    }
+    .slide1 .image_slide1{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide1 .image_slide1 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide2 .image_slide2{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide2 .image_slide2 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide3 .image_slide3{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide3 .image_slide3 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide4 .image_slide4{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide4 .image_slide4 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /* fin gestion slide*/
+
+    /* gestion à propos */
+
+    /* gestion a propos voir*/
+    .propos-a-voir h2{
+        padding-bottom: 3%;
+        font-size: 2em;
+    }
+    .propos-a-voir span{
+        font-size: 1.2em;
+    }
+    .propos-a-voir p{
+        padding: 0 5% 0 5%;
+    }
+    .propos-a-voir ul{
+        font-size: 1.2em;
+        padding: 0 5% 0 12%;
+    }
+    .propos-a-voir h4{
+        padding-left: 5%;
+        font-size: 1.2em;
+    }
+    /* fin gestion a propos voir*/
+
+    /* gestion a propos hiden*/
+    .propos-hidden h2{
+        font-size: 2em;
+    }
+    .propos-hidden h4{
+        padding-left: 5%;
+        font-size: 1.2em;
+    }
+    .propos-hidden h6{
+        padding-left: 5%;
+        font-size: 1em;
+    }
+    .propos-hidden p{
+        font-size: 1em;
+        padding: 0 5% 0 5%;
+        font-weight: 300;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+    .propos-hidden ul{
+        font-size: 1em;
+        padding: 0 5% 0 12%;
+    }
+    .propos-hidden li{
+        margin-bottom: 10px;
+    }
+    
+    .propos-hidden .table{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .propos-hidden table{
+        border-collapse: collapse;
+    }
+    .propos-hidden th{
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 1.1em;
+    }
+    .les_fleches{
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: left;
+        gap: 1%;
+    }
+    .fleche {
+        padding-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50px;
+        width: 90px;
+        font-size: 0.7em;
+        font-family:"Roboto", sans-serif ;
+        color: white;
+        background-color: var(--couleur_principale);
+        border-radius: 0 100px 100px 0 ;
+    }
+    /*fin gestion propos hiden*/
+    /* gestion de la section presentation produit*/
+    .presentation-produit1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        background-color: var(--couleur_principale);
+        width: 94vw;
+        height: 700px;
+        }
+        .produit{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            background-color: var(--couleur_secondaire);
+            height: 140px;
+            width: 60%;
+            padding: 1% 1% 1% 3%;
+            margin: 2%;
+            border-radius: 20px 20px 20px 20px;
+            /*transform: scale(0.0);*/
+            transition: transform 1s ease-in-out; 
+        }
+        .produit .produit_image{
+            width: 150px;
+            height: 30px;
+           
+        }
+        /* fin de la gestion de la section presentation produit*/
+}

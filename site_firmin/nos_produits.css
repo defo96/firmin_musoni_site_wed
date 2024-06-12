@@ -1,0 +1,639 @@
+
+/* gestion de la section slide*/
+.slide{
+    
+    overflow-x: hidden ;
+    padding-top: 4%;
+    
+}
+.slide0{
+    display: flex;
+    width: 200vw;
+    overflow: hidden;
+    animation: translation 30s infinite;
+}
+@keyframes translation {
+    0% { transform: translateX(0vw); }
+    50% { transform: translateX(-100vw); }
+    100% { transform: translateX(0vw); }
+  }
+
+.slide1{
+    height: 600px;
+    width: 100vw;
+    background-color: var(--couleur_principale);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.image_slide3 img{
+    width: 50vw;
+    height: 600px;
+    
+}
+.slide2{
+    width: 100vw;
+    height: 600px;
+    background-color: var(--couleur_principale);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10%;
+    
+}
+.image_slide4 img{
+    width: 50vw;
+    height: 600px;
+    
+}
+.slide .slogan{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: rgba(218, 244, 215, 0.766);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.slide p{
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+.prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--couleur_accentuation);
+    border-radius: 50px;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 48%;
+    rotate: 180deg;
+}
+.prev i{
+    color: black;
+}
+.prev i:hover{
+    color: var(--couleur_accentuation);
+}
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--couleur_accentuation);
+    border-radius: 50px;
+    margin-right: 1%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 48%;
+    rotate: 0deg;
+}
+.next i:hover{
+    color: var(--couleur_accentuation);
+}
+
+
+/* gestion de la section chia*/
+
+.chia h2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+ 
+    /* gestion de la section sous_chia1*/
+
+
+.sous_chia1{
+    display: flex;
+    gap: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.sous_text1_chia1 h4{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+.sous_text1_chia1 p{
+    padding-bottom: 3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.p1_sous_text2_chia1 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_accentuation);
+}
+.p1_sous_text2_chia1 {
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_principale);
+}
+.sous_text2_chia1 p{
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+/* gestion de la section sous_chia2*/
+.chia_bis_bis{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: var(--couleur_secondaire);
+}
+
+.chia_bis2{
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 5%;
+    display: flex;
+}
+.sous_chia2 h4{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sous_chia2 p{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.p1_sous_text2_chia2 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_principale);
+}
+.p1_sous_text1_chia2 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_accentuation);
+}
+.chia_bis3{
+    padding: 0 15% 0 15% ;
+}
+
+.chia_bis3 img{
+    width: 100%;
+}
+
+/* gestion de la section sauber*/
+.sauber_titre h2{
+    padding-top: 2%;
+    padding-bottom: 0.3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+.sauber_titre p{
+    padding-bottom: 0.3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+.sauber_titre h2 span{
+    color: blue;
+}
+.sous_sauber1{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.sous_sauber1 ul{
+    padding-left: 10%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: green;
+}
+.sous_sauber1 p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: blue;
+}
+.p1_sous_sauber1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+}
+.sous_sauber2 p{
+    padding-top: 2%;
+    padding-left: 15%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    
+}
+
+.sous_sauber2 ul{
+    padding-left: 20%;
+    padding-bottom: 3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@media (min-width: 359px) and (max-width: 652px){
+    /* gestion de la section slide*/
+    .nom_diapos{
+        display: none;
+    }
+    .slide1{
+        height: 400px;
+    }
+    .slide2{
+        height: 400px;
+    }
+    .slide1 .image_slide3{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide1 .image_slide3 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide2 .image_slide4{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide2 .image_slide4 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /* fin de la gestion de la section slide*/
+
+    /* gestion de la section chia*/
+
+.chia h2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+}
+ 
+    /* gestion de la section sous_chia1*/
+
+
+.sous_chia1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.image_sous_chia1 img{
+    width: 350px;
+}
+.sous_text1_chia1 h4{
+    
+    font-size: 1.2em;
+   
+}
+.sous_text1_chia1 p{
+   
+    font-size: 1em;
+    
+}
+
+.p1_sous_text2_chia1 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_accentuation);
+}
+.p1_sous_text2_chia1 {
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_principale);
+}
+.sous_text2_chia1 p{
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+/* gestion de la section sous_chia2*/
+.chia_bis_bis{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: var(--couleur_secondaire);
+}
+
+.chia_bis2{
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.sous_chia2 h4{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sous_chia2 p{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.p1_sous_text2_chia2 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_principale);
+}
+.p1_sous_text1_chia2 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_accentuation);
+}
+.chia_bis3{
+    display: flex;
+    justify-content: center;
+    padding: 0 0% 0 0% ;
+}
+
+.chia_bis3 img{
+    width: 350px;
+}
+.sous_sauber2 p{
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 0.8em;
+}
+.sous_sauber2 ul{
+    padding-left: 12%;
+    padding-bottom: 3%;
+    font-size: 0.8em;
+}
+.sauber_titre h2{
+    font-size: 1.5em;
+}
+.image_sous_sauber1 img{
+    width: 150px;
+}
+}
+
+
+@media (min-width: 652px) and (max-width: 1200px){
+    /* gestion de la section slide*/
+    .nom_diapos{
+        display: none;
+    }
+    .slide1{
+        height: 400px;
+    }
+    .slide2{
+        height: 400px;
+    }
+    .slide1 .image_slide3{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide1 .image_slide3 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide2 .image_slide4{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide2 .image_slide4 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /* fin de la gestion de la section slide*/
+
+    /*gestion de la section sous chia*/
+
+    .sous_chia1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .image_sous_chia1 img{
+        width: 450px;
+    }
+    /* fin de la gestion de la section sous chia*/
+}
+
+@media (min-width: 300px) and (max-width: 359px) {
+    /* gestion de la section slide*/
+    .nom_diapos{
+        display: none;
+    }
+    .slide1{
+        height: 400px;
+    }
+    .slide2{
+        height: 400px;
+    }
+    .slide1 .image_slide3{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide1 .image_slide3 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .slide2 .image_slide4{
+        width: 100vw;
+        height: fit-content;
+       
+    }
+    .slide2 .image_slide4 img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    /* fin de la gestion de la section slide*/
+
+    /* gestion de la section chia*/
+
+.chia h2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+}
+ 
+    /* gestion de la section sous_chia1*/
+
+
+.sous_chia1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.image_sous_chia1 img{
+    width: 270px;
+}
+.sous_text1_chia1 h4{
+    
+    font-size: 1.2em;
+   
+}
+.sous_text1_chia1 p{
+   
+    font-size: 1em;
+    
+}
+
+.p1_sous_text2_chia1 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_accentuation);
+}
+.p1_sous_text2_chia1 {
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_principale);
+}
+.sous_text2_chia1 p{
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+/* gestion de la section sous_chia2*/
+.chia_bis_bis{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: var(--couleur_secondaire);
+}
+
+.chia_bis2{
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.sous_chia2 h4{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sous_chia2 p{
+    padding-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.p1_sous_text2_chia2 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_principale);
+}
+.p1_sous_text1_chia2 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--couleur_accentuation);
+}
+.chia_bis3{
+    display: flex;
+    justify-content: center;
+    padding: 0 0% 0 0% ;
+}
+
+.chia_bis3 img{
+    width: 270px;
+}
+.image_sous_sauber1 img{
+    width: 130px;
+}
+.sous_sauber1 ul{
+    padding-left: 5%;
+    font-size: 0.8em;
+}
+.sous_sauber1 p{
+    font-size: 0.8em;
+}
+.sous_sauber2 p{
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 0.8em;
+}
+
+.sous_sauber2 ul{
+    padding-left: 12%;
+    padding-bottom: 3%;
+    font-size: 0.8em;
+}
+.sauber_titre h2{
+    font-size: 1.5em;
+}
+}
+

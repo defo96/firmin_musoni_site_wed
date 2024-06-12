@@ -1,0 +1,1112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* gestion du slide de gsa*/
+.slide_gsa{
+    width: 100vw;
+    padding-top: 4%;
+}
+
+.slide_gsa p{
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+.slide_gsa .slogan_gsa{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: rgba(218, 244, 215, 0.766);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.slide1_gsa{
+    height: 600px;
+    width: 100%;
+    background-color: var(--couleur_principale);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.image_slide2 img{
+    width: 50vw;
+    height: fit-content;
+    
+}
+
+/*gestion de la class presentation_organisation*/
+
+.presentation_organisation h2{
+    padding-top: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: var(--couleur_accentuation);
+    text-align: center;
+}
+.presentation_organisation h3{
+    padding-left: 22%;
+    padding-top: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.5em;
+    font-weight: bolder;
+    /* color: var(--couleur_accentuation); */
+    text-align: left;
+}
+.presentation_organisation h4{
+    padding-left: 22%;
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.8em;
+    font-weight: bolder;
+    /* color: var(--couleur_accentuation); */
+    text-align: left;
+}
+.presentation_organisation .presentation_organisation_trait1{
+    margin-left: 22%;
+    height: 5px;
+    width: 20%;
+    background-color: var(--couleur_principale);
+}
+.presentation_organisation .presentation_organisation_ul{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.presentation_organisation .presentation_organisation_ul li{
+    padding-bottom: 1%;
+}
+.presentation_organisation .presentation_organisation_ul_bis{
+     padding-left: 4%;
+     padding-right: 25%;
+}
+.presentation_organisation .presentation_organisation_ul li{
+    padding-bottom: 1%;
+}
+.image_presentation{
+    display: flex;
+    justify-content: center;  
+}
+.image_presentation img{
+       width: 1000px;    
+}
+
+/* gestion de la section formation*/
+
+.formation{
+    background-color: var(--couleur_secondaire );
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.formation_bis{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    /* margin-bottom: 3%; */
+}
+
+.formation h4{
+    /* padding-left: 10%; */
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: var(--couleur_accentuation);
+    text-align: center;
+}
+
+.formation h5{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: var(--couleur_principale);
+    text-align: center;
+}
+.formation p{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    /* color: black; */
+    text-align: center;
+}
+.formation .sous_formation1{
+    /* width: 20%; */
+    border-bottom: 2px solid #ccc ;
+}
+.formation .sous_formation{
+    width: 20%;
+}
+
+/* gestion de la section objectif */
+.objectif{
+    background-color: var(--couleur_principale);
+    padding-bottom: 0.8%;
+    padding-top: 1%;
+    display: flex;
+}
+.objectif h2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.1em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.sous_objectif1 h4{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.objectif_trait_vertical{
+    width: 0.5%;
+    background-color: white;
+}
+.sous_objectif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.sous_objectif1{
+    width: 80%;
+}
+.sous_objectif1 p{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.sous_objectif1 ul{
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+}
+.beneficiaire_formation1 h3{
+    padding-left: 6.5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.9em;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.beneficiaire_formation1 p{
+    padding-left: 8%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+.beneficiaire_formation1 ul{
+    padding-left: 10%;
+    padding-right: 16%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+}
+/* gestion de la section presentation_cours */
+
+.presentation_cours h2{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.1em;
+    font-weight: bolder;
+    text-align: center;
+}
+.presentation_cours .table{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    
+    border-collapse: collapse;
+}
+.presentation_cours table{
+    border-collapse: collapse;
+}
+.presentation_cours .trblue{
+    color: white;
+    background-color: var(--couleur_principale);
+}
+.presentation_cours td{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.3em;
+    border: 0px solid #ccc;
+    border-collapse: collapse;
+}
+.presentation_cours th{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.5em;
+    border: 0px solid #ccc;
+    border-collapse: collapse;
+}
+.presentation_cours .cqp{
+    background-color: var(--couleur_accentuation);
+}
+.presentation_cours .cqp td{
+    border: 0px solid #ccc;
+}
+
+/* gestion de la section tarifs */
+.tarifs{
+    background-color: var(--couleur_secondaire);
+    padding-bottom: 3%;
+}
+.tarifs_bis{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding-bottom: 5%;
+    background-color: var(--couleur_secondaire);
+}
+.sous_tarifs{
+    border: 1px solid #ccc;
+    height: fit-content;
+   
+    /* width: fit-content; */
+}
+.tarifs h2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.1em;
+    font-weight: bolder;
+    text-align: center;
+}
+.tarifs_bleu p{
+    padding-left: 1%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+.tarifs_blanc{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+}
+
+.tarifs_blanc p{
+    padding-left: 1%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+}
+.sous_tarifs ul{
+    padding-left: 15%;
+    padding-right: 8%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+.tarifs_bleu{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: var(--couleur_principale);
+}
+
+
+/* gestion de la section equipe*/
+.equipe{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.equipe h2{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.1em;
+    font-weight: bolder;
+    text-align: center;
+}
+.equipe_menbre{
+    display: flex;
+    
+    gap: 10px;
+}
+.equipe_bis{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.equipe_menbre_nom p{
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 2.1em;
+    font-weight: bolder;
+}
+.equipe_menbre_poste p{
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1.9em;
+    font-weight: bolder;
+    color: var(--couleur_accentuation);
+}
+.equipe_menbre_description p{
+    padding-bottom: 2%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@media (min-width: 359px) and (max-width: 890px) {
+    /* gestion de la section slide*/
+    .slide_gsa .nom-diapos{
+        display: none;
+    }
+    .slide_gsa{
+        width: 100vw;
+        padding-top: 4%;
+    }
+    .slide1_gsa{
+        height: 400px;
+        width: 100%;
+        background-color: var(--couleur_principale);
+        
+    }
+    .image_slide2{
+        width: 100vw;
+    }
+    .image_slide2 img{
+        width: 100%;
+        height: fit-content;
+    }
+     /* fin de la gestion de la section slide*/
+    
+     /* gestion de la section presentation organisation*/
+     .presentation_organisation h2{
+        font-size: 1.5em;
+       }
+    .presentation_organisation h3{
+        padding-left: 5%;
+        padding-top: 2%;
+        font-size: 1.2em;
+    }
+    .presentation_organisation h4{
+        padding-left: 5%;
+        padding-bottom: 2%;
+       font-size: 1.2em;
+    }
+    .presentation_organisation .presentation_organisation_trait1{
+        margin-left: 5%;
+        height: 5px;
+        width: 20%;
+        background-color: var(--couleur_principale);
+    }
+    .presentation_organisation .presentation_organisation_ul{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: 300;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    .presentation_organisation .presentation_organisation_ul li{
+        padding-bottom: 8%;
+    }
+    .presentation_organisation .presentation_organisation_ul_bis{
+         padding-left: 14%;
+         padding-right: 5%;
+    }
+    .presentation_organisation .presentation_organisation_ul_bis li{
+        padding-bottom: 1%;
+    }
+    .image_presentation img{
+           width: 350px;    
+    }
+     /* fin de la gestion de la section presentation organisation*/
+
+
+
+     /* gestion de la section formation*/
+     .formation{
+        background-color: var(--couleur_secondaire );
+        padding-bottom: 8%;
+        padding-top: 10%;
+    }
+    
+    .formation_bis{
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        /* margin-bottom: 3%; */
+    }
+    
+    .formation h4{
+        /* padding-left: 10%; */
+        padding-bottom: 2%;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+    
+    .formation h5{
+        font-size: 1.2em;
+    }
+    .formation p{
+      font-size: 0.9em;
+    }
+    .formation .sous_formation{
+        width: 30%;
+    }
+    
+     /* fin de la gestion de la section formation*/
+
+
+
+    /* gestion de la section objectif*/
+    .objectif{
+        background-color: var(--couleur_principale);
+        padding-bottom: 0.8%;
+        padding-top: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .image_objectif{
+        display: flex;
+        justify-content: center;
+    }
+    .image_objectif img{
+        width: 350px;
+    }
+    .sous_objectif1 p{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+        padding-left: 1%;
+    }
+    .sous_objectif1 ul{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        padding-left: 8%;
+    }
+    .sous_objectif{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12%;
+    }
+    .sous_objectif1{
+        width: 100%;
+    }
+    .sous_objectif1 h4{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    .beneficiaire_formation1 h3{
+        padding-left: 6.5%;
+        padding-top: 8%;
+        padding-bottom: 5%;
+    }
+    .beneficiaire_formation1 p{
+        padding-left: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .beneficiaire_formation1 ul{
+        padding-left: 8%;
+        padding-right: 2%;
+    }
+    /* fin de la gestion de la section objectif*/
+
+    /* gestion de la section presentation cours*/
+    .presentation_cours .table{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 97%;
+        border-collapse: collapse;
+    }
+    .presentation_cours table{
+        width: 100%;
+    }
+    .presentation_cours td{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 0.59em;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    .presentation_cours th{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 0.8em;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    /* fin de la gestion de la section presentation cours*/
+
+    /* gestion de la section presentation tarifs*/
+    .tarifs{
+    }
+    
+    .tarifs_bis{
+        background-color: blue;
+        /* width: 100vw; */
+        overflow-x: scroll;
+        display: flex; 
+        /* flex-direction: column; */
+        justify-content: left;
+
+        padding-bottom: 5%;
+        background-color: var(--couleur_secondaire);
+       
+    }
+    .sous_tarifs{
+       
+       min-width: 90vw;
+    }
+    .tarifs h2{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.9em;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .tarifs_bleu p{
+        padding-left: 1%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .tarifs_blanc{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: white;
+    }
+    
+    .tarifs_blanc p{
+        padding-left: 1%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: black;
+        text-align: left;
+    }
+    .sous_tarifs ul{
+        padding-left: 18%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .tarifs_bleu{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: var(--couleur_principale);
+    }
+
+    /* gestion de la section equipe */
+    .equipe{
+        padding-bottom: 5%;
+        padding-left: 0%;
+    }
+    .equipe_bis{
+        display: flex;
+        flex-direction: column;
+    }
+    .equipe_menbre_nom p{
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+    .equipe_menbre_poste p{
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.3em;
+        font-weight: bolder;
+        color: var(--couleur_accentuation);
+    }
+     /* fin de la gestion de la section equipe */
+}
+
+
+@media  (min-width: 890px) and (max-width: 1150px){
+    /* gestion de la section slide*/
+    .slide_gsa .nom-diapos{
+        display: none;
+    }
+    .slide_gsa{
+        width: 100vw;
+        padding-top: 4%;
+    }
+    .slide1_gsa{
+        height: 400px;
+        width: 100%;
+        background-color: var(--couleur_principale);
+        
+    }
+    .image_slide2{
+        width: 100vw;
+    }
+    .image_slide2 img{
+        width: 100%;
+        height: fit-content;
+    }
+    /* gestion de la section tarifs*/
+    .tarifs_bis{
+        background-color: blue;
+        /* width: 100vw; */
+        overflow-x: scroll;
+        display: flex; 
+        /* flex-direction: column; */
+        justify-content: left;
+
+        padding-bottom: 5%;
+        background-color: var(--couleur_secondaire);
+       
+    }
+    .sous_tarifs{
+       
+       min-width: 90vw;
+    }
+    /* fin de la gestion de la section tarifs*/
+
+    /* gestion de la section presentation cours*/
+    .presentation_cours .table{
+        padding-left: 2%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 97%;
+        border-collapse: collapse;
+    }
+    .presentation_cours table{
+        width: 100%;
+    }
+    .presentation_cours td{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 0.7em;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    .presentation_cours th{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 0.9em;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    /* fin de la gestion de la section presentation cours*/
+
+    /* gestion de la section objectif */
+    .objectif{
+        background-color: var(--couleur_principale);
+        padding-bottom: 8%;
+        padding-top: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .image_objectif{
+        display: flex;
+        justify-content: center;
+    }
+    .image_objectif img{
+        width: 450px;
+    }
+    .sous_objectif1 p{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .sous_objectif1 ul{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        padding-left: 12%;
+        padding-right: 10%;
+    }
+    .sous_objectif{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12%;
+    }
+    .sous_objectif1{
+        width: 100%;
+    }
+    .sous_objectif1 h4{
+        padding-bottom: 2%;
+        padding-top: 5%;
+    }
+    .beneficiaire_formation1 h3{
+        padding-left: 6.5%;
+        padding-top: 8%;
+        padding-bottom: 2%;
+    }
+    .beneficiaire_formation1 p{
+        padding-left: 5%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .beneficiaire_formation1 ul{
+        padding-left: 12%;
+        padding-right: 10%;
+    }
+    /* fin de la gestion de la section objectif */
+    /* gestion de la section equipe */
+    .equipe{
+        padding-bottom: 5%;
+        padding-left: 0%;
+    }
+    .equipe_bis{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .equipe_menbre_nom p{
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+    .equipe_menbre_poste p{
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.3em;
+        font-weight: bolder;
+        color: var(--couleur_accentuation);
+    }
+     /* fin de la gestion de la section equipe */
+}
+
+@media (min-width: 300px) and (max-width: 359px) {
+    /* gestion de la section slide*/
+    .slide_gsa .nom-diapos{
+        display: none;
+    }
+    .slide_gsa{
+        width: 100vw;
+        padding-top: 4%;
+    }
+    .slide1_gsa{
+        height: 400px;
+        width: 100%;
+        background-color: var(--couleur_principale);
+        
+    }
+    .image_slide2{
+        width: 100vw;
+    }
+    .image_slide2 img{
+        width: 100%;
+        height: fit-content;
+    }
+     /* fin de la gestion de la section slide*/
+    
+     /* gestion de la section presentation organisation*/
+     .presentation_organisation h2{
+        font-size: 1.2em;
+       }
+    .presentation_organisation h3{
+        padding-left: 5%;
+        padding-top: 2%;
+        font-size: 1em;
+    }
+    .presentation_organisation h4{
+        padding-left: 5%;
+        padding-bottom: 2%;
+       font-size: 1em;
+    }
+    .presentation_organisation .presentation_organisation_trait1{
+        margin-left: 5%;
+        height: 5px;
+        width: 20%;
+        background-color: var(--couleur_principale);
+    }
+    .presentation_organisation .presentation_organisation_ul{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: 300;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    .presentation_organisation .presentation_organisation_ul li{
+        padding-bottom: 8%;
+    }
+    .presentation_organisation .presentation_organisation_ul_bis{
+         padding-left: 14%;
+         padding-right: 5%;
+    }
+    .presentation_organisation .presentation_organisation_ul_bis li{
+        padding-bottom: 1%;
+    }
+    .image_presentation img{
+           width: 350px;    
+    }
+     /* fin de la gestion de la section presentation organisation*/
+
+
+
+     /* gestion de la section formation*/
+     .formation{
+        background-color: var(--couleur_secondaire );
+        padding-bottom: 8%;
+        padding-top: 10%;
+    }
+    
+    .formation_bis{
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        /* margin-bottom: 3%; */
+    }
+    
+    .formation h4{
+        /* padding-left: 10%; */
+        padding-bottom: 2%;
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+    
+    .formation h5{
+        font-size: 1em;
+    }
+    .formation p{
+      font-size: 0.7em;
+    }
+    .formation .sous_formation{
+        width: 30%;
+    }
+    
+     /* fin de la gestion de la section formation*/
+
+
+
+    /* gestion de la section objectif*/
+    .objectif{
+        background-color: var(--couleur_principale);
+        padding-bottom: 0.8%;
+        padding-top: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .image_objectif{
+        display: flex;
+        justify-content: center;
+    }
+    .image_objectif img{
+        width: 350px;
+    }
+    .sous_objectif1 p{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+        padding-left: 1%;
+    }
+    .sous_objectif1 ul{
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        padding-left: 8%;
+    }
+    .sous_objectif{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12%;
+    }
+    .sous_objectif1{
+        width: 100%;
+    }
+    .sous_objectif1 h4{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    .beneficiaire_formation1 h3{
+        padding-left: 6.5%;
+        padding-top: 8%;
+        padding-bottom: 5%;
+    }
+    .beneficiaire_formation1 p{
+        padding-left: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .beneficiaire_formation1 ul{
+        padding-left: 8%;
+        padding-right: 2%;
+    }
+    /* fin de la gestion de la section objectif*/
+
+    /* gestion de la section presentation cours*/
+    .presentation_cours .table{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 97%;
+        border-collapse: collapse;
+    }
+    .presentation_cours table{
+        width: 100%;
+    }
+    .presentation_cours td{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 0.59em;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    .presentation_cours th{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 0.7em;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+    /* fin de la gestion de la section presentation cours*/
+
+    /* gestion de la section presentation tarifs*/
+    .tarifs{
+    }
+    
+    .tarifs_bis{
+        background-color: blue;
+        /* width: 100vw; */
+        overflow-x: scroll;
+        display: flex; 
+        /* flex-direction: column; */
+        justify-content: left;
+
+        padding-bottom: 5%;
+        background-color: var(--couleur_secondaire);
+       
+    }
+    .sous_tarifs{
+       
+       min-width: 90vw;
+    }
+    .tarifs h2{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.9em;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .tarifs_bleu p{
+        padding-left: 1%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .tarifs_blanc{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: white;
+    }
+    
+    .tarifs_blanc p{
+        padding-left: 1%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: black;
+        text-align: left;
+    }
+    .sous_tarifs ul{
+        padding-left: 18%;
+        padding-right: 0%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: white;
+        text-align: left;
+    }
+    .tarifs_bleu{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: var(--couleur_principale);
+    }
+
+    /* gestion de la section equipe */
+    .equipe{
+        padding-bottom: 5%;
+        padding-left: 0%;
+    }
+    .equipe_bis{
+        display: flex;
+        flex-direction: column;
+    }
+    .equipe_menbre_nom p{
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+    .equipe_menbre_poste p{
+        padding-bottom: 2%;
+        font-family:"Roboto", sans-serif ;
+        font-size: 1.3em;
+        font-weight: bolder;
+        color: var(--couleur_accentuation);
+    }
+    .equipe_image img{
+        width: 150px;
+    }
+     /* fin de la gestion de la section equipe */
+}
